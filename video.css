@@ -1,0 +1,19 @@
+.progress{
+        display: flex;
+        position: relative;
+        flex: 4;
+        width: 650px;
+        flex-basis: 100%;
+        height: 5px;
+        transition: 0.3s;
+        background: rgba(0,0,0, 0.5);
+    }
+    .progress_filled{
+        width: 20%;
+        background: yellow;
+        flex:0;
+        flex-basis: 50%;
+    }
+    .player:hover .progress{
+        height: 15px;
+    }
